@@ -32,6 +32,15 @@ public class MainActivity extends Activity {
             case R.id.action_clear:
                 mPaintingView.clear();
                 break;
+            case R.id.action_drawrect:
+                mPaintingView.drawRectangle();
+                break;
+            case R.id.action_drawrecttwofingers:
+                mPaintingView.drawRectangletwo();
+                break;
+            case R.id.action_drawlines:
+                mPaintingView.drawlines();
+                break;
         }
 
         return super.onOptionsItemSelected(item);
